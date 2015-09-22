@@ -339,7 +339,7 @@ extern "C" void* ThreadStats(void*) {
   } while(1);
 }
 
-static const string mainnet_seeds[] = {"dnsseed.hull-coin.org", ""};
+static const string mainnet_seeds[] = {"dnsseed.hull-coin.org", "dnsseed2.hull-coin.org", ""};
 static const string testnet_seeds[] = {"testnet-seed.hull-coin.org", ""};
 
 static const string *seeds = mainnet_seeds;
